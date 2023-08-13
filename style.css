@@ -46,7 +46,7 @@ h4 {
 }
 
 #result-container {
-    display: flex;        /* Use flex layout */
+    display: flex;        /* Use flex layout  */
     justify-content: center; /* Center-aligns items horizontally */
     align-items: center;  /* Aligns items vertically in the center */
     max-width: 400px;     /* You can adjust this to suit your design */
