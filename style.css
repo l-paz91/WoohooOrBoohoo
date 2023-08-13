@@ -63,7 +63,7 @@ h4 {
 
 #credits-container {
     position: absolute;  /* Use absolute positioning */
-    bottom: 300px;       /* Distance from the bottom of the parent element */
+    bottom: 200px;       /* Distance from the bottom of the parent element */
     left: 50%;           /* Center-align horizontally */
     transform: translateX(-50%); /* Fine-tune center alignment */
     display: flex;       /* Use flex layout */
