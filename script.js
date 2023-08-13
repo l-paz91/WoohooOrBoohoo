@@ -14,7 +14,17 @@ const patchNotes = [
     ["Fish are no longer duplicated in the fridge when moving homes.", "Fixed a bug where Sims were holding a grudge against refrigerators."],
     ["Sims can no longer \"Try for Baby\" with the Grim Reaper.", "Sims can now argue with plants. Be careful, though; some plants have very strong opinions!"],
     ["Televisions no longer play video after they are burned or broken.", "Added a new interaction: \"Debate the Meaning of WooHoo\" with other Sims."],
-    ["", ""],
+    ["Sims who are on fire will no longer be forced to attend graduation before they can put themselves out.", "Sims now react to bad fashion choices by other Sims, potentially leading to fashion interventions."],
+    ["Toddlers can no longer get fleas.", "Elder Sims can now time-travel back to their youth by taking a special bubble bath."],
+    ["Fixed an issue that caused Sims to leave their Toddler inside a bar at closing time.", "Sims can now befriend shadows, leading to a dark and mysterious friendship."],
+    ["Sims will no longer receive a wish to \"Skinny Dip\" with Mummies.", "Added new trait: ‘Serial Hobbyist’, where Sims compulsively pick up and drop hobbies every Sim-week."],
+    ["Pregnant Sims can no longer \"Brawl.\"", "Sims now risk being abducted by sentient vacuum cleaners if house chores are neglected."],
+    ["Pianists will no longer continue playing pianos that have been detonated.", "Sims' dreams now include ads. Upgrade to Premium Sleep to remove them."],
+    ["Mermaids previously would not die due to starvation or aging up. That has been fixed.", "Fixed a bug where Sims were writing novels backwards, starting with the last chapter."],
+    ["Vampire Sims can now do group dances on the dance floor.", "Sims can now become full-time pirates, complete with ships, treasure hunting, and parrot friends."],
+    ["Sims now more consistently wash hands in the sink closest to the toilet", "Children Sims can now ground their parents if household rules are violated."],
+    ["Manure/poop is more performant at the gameplay engine level.", "Sims' obsession with llamas now influences their decision-making in love and career."],
+    ["The female outfit with a foldover sweater now keeps its hands to itself when the camera is far away.", "Sims no longer obsess over the meaning of life after eating grilled cheese."],
     // Add more patch notes here
 ];
 
