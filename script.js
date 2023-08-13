@@ -51,6 +51,19 @@ function shufflePatchNote() {
     }
 }
 
+function nextQuestion() {
+    // Enable the button only if there are more questions
+    if (currentNote < patchNotes.length) {
+        document.getElementById('next-button').hidden = false;
+        document.getElementById('next-button').disabled = false;
+        loadPatchNote();
+    } else {
+        document.getElementById('result').innerText = 'Game over! Refresh to play again.';
+        document.getElementById('next-button').hidden = true; // Disable the button if the game is over
+        document.getElementById('next-button').disabled = true;
+    }
+}
+
 function loadPatchNote() {
     const { notes, realIndex: index } = shufflePatchNote();
     realIndex = index; // Store the real index
@@ -61,6 +74,10 @@ function loadPatchNote() {
     document.getElementById('patch-note1').classList.remove('correct', 'incorrect');
     document.getElementById('patch-note2').classList.remove('correct', 'incorrect');
     document.getElementById('result').innerText = '';
+
+    // Disable the "Next" button
+    document.getElementById('next-button').hidden = true;
+    document.getElementById('next-button').disabled = true;
 }
 
 function checkAnswer(answer) {
@@ -80,13 +97,17 @@ function checkAnswer(answer) {
     
     // Move on to the next question after a short delay
     currentNote++;
-    if (currentNote < patchNotes.length) {
+    /*if (currentNote < patchNotes.length) {
         setTimeout(loadPatchNote, 3000); // 5-second delay
     } else {
         setTimeout(function() {
             document.getElementById('result').innerText = 'Game over! Refresh to play again.';
         }, 2000); // 2-second delay
-    }
+    }*/
+
+    // Enable the "Next" button
+    document.getElementById('next-button').hidden = false;
+    document.getElementById('next-button').disabled = false;
 }
 
-loadPatchNote(); // Call this to load the initial question
+nextQuestion(); // Call this to load the initial question
