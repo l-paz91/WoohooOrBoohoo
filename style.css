@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: lightgray;
-    position: static;
 }
 
 h1 {
@@ -63,7 +62,7 @@ h4 {
 
 #credits-container {
     position: absolute;  /* Use absolute positioning */
-    bottom: 200px;       /* Distance from the bottom of the parent element */
+    bottom: 300px;       /* Distance from the bottom of the parent element */
     left: 50%;           /* Center-align horizontally */
     transform: translateX(-50%); /* Fine-tune center alignment */
     display: flex;       /* Use flex layout */
