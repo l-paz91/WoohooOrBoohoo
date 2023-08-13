@@ -9,9 +9,17 @@
 <body>
     <h1>Woohoo or Boohoo</h1>
     <h2>The Sims Patch Note Challenge</h2>
+    <h3>Can you guess the real patch note?</h3>
     <div class="patch-note" id="patch-note1" onclick="checkAnswer(0)">Patch Note 1</div>
     <div class="patch-note" id="patch-note2" onclick="checkAnswer(1)">Patch Note 2</div>
-    <p id="result"></p>
+    <div id="result-container">
+        <p id="result"></p>
+        <button id="next-button" onclick="nextQuestion()" disabled>Next</button>
+    </div>
+    <div id="credits-container">
+        <h4>Created by <a href="http://www.lptcp.blogspot.com" target="_blank">longPointer*</a></h4>
+    </div>
+ 
     <script src="script.js"></script>
 </body>
 </html>
