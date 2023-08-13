@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.correct {
+    background-color: lightgreen;
+    border-color: darkgreen;
+}
+
+.incorrect {
+    background-color: indianred;
+    border-color: darkred;
+}
+
+.patch-note {
+    border: 2px solid darkslategrey;
+   /* background-color:rgb(189, 186, 186);*/
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    display: inline-block;
+    width: 300px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    overflow: auto; /* Enable scrolling for long text */
+}
